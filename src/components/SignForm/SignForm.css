@@ -1,0 +1,11 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 28px;
+    }
+  }
+  

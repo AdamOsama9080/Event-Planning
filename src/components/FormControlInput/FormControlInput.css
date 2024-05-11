@@ -1,0 +1,23 @@
+.FormControlInputContainer {
+    margin-bottom: 15px;
+}
+
+.FormControlInputLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.FormControlInputInput {
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 46px;
+    font-size: 12px;
+}
+
+.FormControlInputInput:focus {
+    outline: none;
+}

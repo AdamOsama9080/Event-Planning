@@ -1,0 +1,64 @@
+[
+    {
+      "imageSrc": "Images/fakurian-design-kakvfQBniyI-unsplash 1.png",
+      "title": "Event 1",
+      "organizer": "ahmed",
+      "avatars": [
+        { "src": "Images/Avatar1.png", "alt": "Remy Sharp" },
+        { "src": "Images/Avatar2.png", "alt": "Travis Howard" },
+        { "src": "Images/Avatar3.png", "alt": "Agnes Walker" }
+      ]
+    },
+    {
+      "imageSrc": "Images/fakurian-design-kakvfQBniyI-unsplash 1.png",
+      "title": "Event 2",
+      "organizer": "adam",
+      "avatars": [
+        { "src": "Images/Avatar1.png", "alt": "Remy Sharp" },
+        { "src": "Images/Avatar2.png", "alt": "Travis Howard" },
+        { "src": "Images/Avatar3.png", "alt": "Agnes Walker" }
+      ]
+    },
+    {
+      "imageSrc": "Images/fakurian-design-kakvfQBniyI-unsplash 1.png",
+      "title": "Event 3",
+      "organizer": "abdo",
+      "avatars": [
+        { "src": "Images/Avatar1.png", "alt": "Remy Sharp" },
+        { "src": "Images/Avatar2.png", "alt": "Travis Howard" },
+        { "src": "Images/Avatar3.png", "alt": "Agnes Walker" }
+      ]
+    },
+    {
+      "imageSrc": "Images/fakurian-design-kakvfQBniyI-unsplash 1.png",
+      "title": "Event 4",
+      "organizer": "hossam",
+      "avatars": [
+        { "src": "Images/Avatar1.png", "alt": "Remy Sharp" },
+        { "src": "Images/Avatar2.png", "alt": "Travis Howard" },
+        { "src": "Images/Avatar3.png", "alt": "Agnes Walker" }
+      ]
+    },
+    {
+      "imageSrc": "Images/fakurian-design-kakvfQBniyI-unsplash 1.png",
+      "title": "Event 5",
+      "organizer": "pop",
+      "avatars": [
+        { "src": "Images/Avatar1.png", "alt": "Remy Sharp" },
+        { "src": "Images/Avatar2.png", "alt": "Travis Howard" },
+        { "src": "Images/Avatar3.png", "alt": "Agnes Walker" }
+      ]
+    },
+    {
+      "imageSrc": "Images/fakurian-design-kakvfQBniyI-unsplash 1.png",
+      "title": "Event 6",
+      "organizer": "noor",
+      "avatars": [
+        { "src": "Images/Avatar1.png", "alt": "Remy Sharp" },
+        { "src": "Images/Avatar2.png", "alt": "Travis Howard" },
+        { "src": "Images/Avatar3.png", "alt": "Agnes Walker" }
+      ]
+    }
+    
+  ]
+  

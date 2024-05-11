@@ -1,0 +1,97 @@
+{
+  "signIn": {
+    "yourEmail": "Your Email",
+    "enterEmail": "Enter your email",
+    "enterName": "Enter your name",
+    "enterPassword": "Enter your password",
+    "password": "Password",
+    "yourName": "Your Name",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "toEventHive": "to Event Hive",
+    "helloFriend": "Hello Friend",
+    "welcomeBack": "Welcome back",
+    "keepConnected": "To keep connected with us, provide us with your information."
+  },
+  "buttons": {
+    "signUpWithGoogle": "Sign up with Google",
+    "signUp": "Sign Up",
+    "signIn": "Sign In"
+  },
+  "messages": {
+    "or": "Or"
+  },
+    "homepage": {
+      "madeFor": "MADE FOR THOSE WHO DO"
+  },
+    "colledgeEvents": {
+      "checkoutYour": "Checkout your",
+      "collegeEvents": "college events",
+      "now": "now",
+      "colleges": "Colleges",
+      "nearYou": "near you"
+    },
+    "colledgeEventCard": {
+      "free": "FREE",
+      "title": "BestSeller Book Bootcamp -write, Market& Publish Your Book -Lucknow",
+      "date": "Saturday, March 18, 9.30PM",
+      "location": "ONLINE EVENT - Attend anywhere"
+    },"createEvent": {
+      "makeYourOwnEvent": "Make your own Event",
+      "loremIpsum": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, id.",
+      "createEvents": "Create Events",
+      "joinThese": "Join these",
+      "brands": "brands",
+      "industryBrands": "We've had the pleasure of working with industry-defining brands. These are just some of them."
+  },"navbar": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "signup": "Signup",
+    "logout": "Logout"
+  },"form": {
+    "lookingFor": "Looking For:",
+    "location": "Location:",
+    "when": "When:",
+    "chooseEventType": "Choose event type",
+    "chooseLocation": "Choose location",
+    "chooseDateTime": "Choose date and time",
+    "community": "Community",
+    "music": "Music",
+    "education": "Education",
+    "sports": "Sports",
+    "food": "Food",
+    "downtownSquare": "Downtown Square",
+    "galleryXYZ": "Gallery XYZ",
+    "cityJazzClub": "City Jazz Club",
+    "riversidePark": "Riverside Park"
+  },"eventType": {
+    "community": "Community",
+    "music": "Music",
+    "education": "Education",
+    "sports": "Sports"
+  },
+  "locations": {
+    "downtownSquare": "Downtown Square",
+    "galleryXYZ": "Gallery XYZ",
+    "cityJazzClub": "City Jazz Club",
+    "riversidePark": "Riverside Park"
+  },
+  "events": {
+    "youMayLike": "Other events you may like",
+    "collegeEvents": "College Events",
+    "upcoming": "Upcoming",
+    "events": "Events",
+    "eventType": "Event Type",
+    "location": "Location",
+    "dateTime": "Date and Time"
+  },"loadMore": "Load More...",
+  "colleges":{
+    "Trending": "Trending",
+    "Colleges": "Colleges"
+  }
+  
+  
+}

@@ -1,0 +1,819 @@
+{
+  "Sports": [
+    {
+      "sport": "Football",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Championship Match",
+      "venue": "Stadium XYZ",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "description": "Watch the thrilling championship match between top football teams!",
+      "subtitle": "Final showdown for the championship title",
+      "img": "https://i.pinimg.com/236x/9f/35/3a/9f353ac1518053448be55687c22d9e4e.jpg",
+      "organizer": "Football Association",
+      "id": "a38c"
+    },
+    {
+      "sport": "Basketball",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Streetball Tournament",
+      "venue": "Community Park",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "12:00",
+      "end_time": "16:00",
+      "description": "Join us for a fun-filled streetball tournament with local teams!",
+      "subtitle": "Friendly competition on the court",
+      "img": "https://media.istockphoto.com/id/484676582/photo/flying-ball-to-basket-top-view-during-basketball.jpg?s=612x612&w=0&k=20&c=cwTXz9_LjSD055esoCHkdcEKMgdP64sLF6Y9F35_g2A=",
+      "organizer": "Local Basketball Club",
+      "id": "c14b"
+    },
+    {
+      "sport": "Marathon",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "City Marathon",
+      "venue": "Downtown",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "start_time": "08:00",
+      "end_time": "13:00",
+      "description": "Experience the excitement of a city-wide marathon!",
+      "subtitle": "Run through the heart of the city",
+      "img": "https://media.istockphoto.com/id/1457686878/photo/one-person-leading-marathon.jpg?s=2048x2048&w=is&k=20&c=c8PXp7wlZ_pH3Jxf5AjvmiGHtBghuyErEnsrnNrxXkE=",
+      "organizer": "City Athletics Association",
+      "id": "4e84"
+    },
+    {
+      "sport": "Tennis",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Grand Slam Open",
+      "venue": "Tennis Club XYZ",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "description": "Witness the intense matches at the prestigious Grand Slam Open!",
+      "subtitle": "Top players compete for the championship",
+      "img": "https://media.istockphoto.com/id/1517469272/photo/happy-female-paddle-tennis-player-during-practice-on-outdoor-court-looking-at-camera.jpg?s=612x612&w=0&k=20&c=rnZ89XBESWgY-AV5qFVk2ZO85CIPpUZc3rBkYZvqX0c=",
+      "organizer": "Tennis Association",
+      "id": "1faf"
+    },
+    {
+      "sport": "Racing",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Formula Racing Grand Prix",
+      "venue": "Circuit XYZ",
+      "coordinates": {
+        "latitude": 45.5017,
+        "longitude": -73.5673
+      },
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "description": "Feel the adrenaline rush at the Formula Racing Grand Prix!",
+      "subtitle": "Fast cars and thrilling competition",
+      "img": "https://media.istockphoto.com/id/1133992368/photo/men-driving-formula-racing-cars.jpg?s=612x612&w=0&k=20&c=_VOJogQYsu3Xd2hMQb_DZGt_zVwwUY8MYBsNSAj9wrc=",
+      "organizer": "Racing Federation",
+      "id": "83bc"
+    },
+    {
+      "sport": "Padel",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Outdoor Padel Tournament",
+      "venue": "Padel Club ABC",
+      "coordinates": {
+        "latitude": 40.4168,
+        "longitude": -3.7038
+      },
+      "start_time": "09:00",
+      "end_time": "16:00",
+      "description": "Cheer for your favorite players at the thrilling Padel Tournament!",
+      "subtitle": "Exciting matches under the sun",
+      "img": "https://media.istockphoto.com/id/1461079523/photo/a-young-padel-player-jumps-to-hit-the-ball-in-an-outdoor-game.jpg?s=2048x2048&w=is&k=20&c=zpSjeaoCtBn8XbygijkAz11RXo7xOyRrc9QIbFkUxIk=",
+      "organizer": "Padel Association",
+      "id": "abfa"
+    },
+    {
+      "sport": "Swimming",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Open Water Swim Meet",
+      "venue": "Beachfront",
+      "coordinates": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "start_time": "07:00",
+      "end_time": "11:00",
+      "description": "Dive into the excitement at the Open Water Swim Meet!",
+      "subtitle": "Challenging swim courses in the open sea",
+      "img": "https://media.istockphoto.com/id/180805974/photo/saint-peters-square-in-rome.jpg?s=612x612&w=0&k=20&c=IdjooBrtLYElO3l1KqSbTiSjl1UMLwv1t4pX4dhsY=",
+      "organizer": "Swimming Association",
+      "id": "12df"
+    },
+    {
+      "sport": "Golf",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Pro-Am Golf Tournament",
+      "venue": "Golf Club XYZ",
+      "coordinates": {
+        "latitude": 33.6844,
+        "longitude": -117.8265
+      },
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "description": "Enjoy a day of golfing excellence at the Pro-Am Golf Tournament!",
+      "subtitle": "Professional players team up with amateurs",
+      "img": "https://media.istockphoto.com/id/1161607650/photo/basketball-players-on-court.jpg?s=612x612&w=0&k=20&c=LaHumcZCJn70dPqmR-RyIOmgayckhHdkM8cDHNSqrds=",
+      "organizer": "Golf Association",
+      "id": "8b59"
+    },
+    {
+      "sport": "Hockey",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Ice Hockey Championship",
+      "venue": "Ice Arena ABC",
+      "coordinates": {
+        "latitude": 45.4215,
+        "longitude": -75.6919
+      },
+      "start_time": "16:00",
+      "end_time": "20:00",
+      "description": "Experience the intense action on ice at the Ice Hockey Championship!",
+      "subtitle": "Top teams battle for the trophy",
+      "img": "https://i.pinimg.com/564x/d8/de/ce/d8dece7dc0f506ff815075991dec2cb1.jpg",
+      "organizer": "Hockey League",
+      "id": "92b9"
+    },
+    {
+      "sport": "Cricket",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "International Cricket Match",
+      "venue": "Cricket Stadium XYZ",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "start_time": "14:00",
+      "end_time": "18:00",
+      "description": "Witness the excitement as international cricket teams clash in a thrilling match!",
+      "subtitle": "Battle of the best cricketing nations",
+      "img": "https://media.istockphoto.com/id/1457686878/photo/one-person-leading-marathon.jpg?s=2048x2048&w=is&k=20&c=c8PXp7wlZ_pH3Jxf5AjvmiGHtBghuyErEnsrnNrxXkE=",
+      "organizer": "International Cricket Council",
+      "id": "1eae"
+    },
+    {
+      "sport": "Baseball",
+      "type": "sport",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Major League Baseball Game",
+      "venue": "Baseball Stadium ABC",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "description": "Cheer for your favorite team in a thrilling Major League Baseball game!",
+      "subtitle": "Home run showdown under the lights",
+      "img": "https://media.istockphoto.com/id/1461079523/photo/a-young-padel-player-jumps-to-hit-the-ball-in-an-outdoor-game.jpg?s=2048x2048&w=is&k=20&c=zpSjeaoCtBn8XbygijkAz11RXo7xOyRrc9QIbFkUxIk=",
+      "organizer": "Major League Baseball Association",
+      "id": "0d75"
+    }
+  ],
+  "upcomping_events": [
+    {
+      "id": "1",
+      "price": "200LE",
+      "category": "Upcoming Events",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Coding Seminar",
+      "venue": "University Hall",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "09:00",
+      "end_time": "16:00",
+      "description": "Join us for an informative seminar on coding and programming!",
+      "subtitle": "Unlocking the world of coding",
+      "img": "https://media.istockphoto.com/id/1483272796/photo/seminar-coding-talking.jpg?s=2048x2048&w=is&k=20&c=X9GsRbeuZItTX_8blS3hGmH8Q7ArBvUfDtSxCSDz8Ew=",
+      "organizer": "Computer Science Department, University XYZ",
+      "fullDate": "Wednesday, October 2, 9:00 AM"
+    },
+    {
+      "id": "2",
+      "price": "Free",
+      "category": "Upcoming Events",
+      "type": "sports",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "College Basketball Tournament",
+      "venue": "College Gymnasium",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "13:00",
+      "end_time": "20:00",
+      "description": "Witness intense basketball matches as college teams compete for the championship!",
+      "subtitle": "Showdown on the college court",
+      "img": "https://media.istockphoto.com/id/1161607650/photo/basketball-players-on-court.jpg?s=612x612&w=0&k=20&c=LaHumcZCJn70dPqmR-RyIOmgayckhHdkM8cDHNSqrds=",
+      "organizer": "College Athletics Association",
+      "fullDate": "Wednesday, October 2, 1:00 PM"
+    },
+    {
+      "id": "3",
+      "price": "500LE",
+      "category": "Upcoming Events",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Business Conference",
+      "venue": "College Auditorium",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "description": "Engage in discussions and networking opportunities at the annual business conference!",
+      "subtitle": "Exploring trends and strategies in business",
+      "img": "https://source.unsplash.com/featured/?conference",
+      "fullDate": "Wednesday, October 2, 10:00 AM"
+    },
+    {
+      "id": "4",
+      "price": "Free",
+      "category": "Upcoming Events",
+      "type": "sports",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "College Soccer Championship",
+      "venue": "Soccer Field",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "15:00",
+      "end_time": "18:00",
+      "description": "Cheer for your college team as they compete for the soccer championship title!",
+      "subtitle": "Thrilling matches on the soccer pitch",
+      "img": "https://media.istockphoto.com/id/1482844702/photo/crowd-of-smart-tech-people-applauding-in-dark-conference-hall-during-a-motivational-keynote.jpg?s=612x612&w=0&k=20&c=MT4NoWUMEWyUpY5kZhknLMrguapPvYgOjrY8ggqcwWg=",
+      "organizer": "College Athletics Association",
+      "fullDate": "Wednesday, October 2, 3:00 PM"
+    },
+    {
+      "id": "5",
+      "price": "350LE",
+      "category": "Upcoming Events",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Student Seminar on Entrepreneurship",
+      "venue": "College Hall",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "description": "Learn from successful entrepreneurs and explore opportunities in entrepreneurship!",
+      "subtitle": "Empowering the next generation of entrepreneurs",
+      "img": "https://media.istockphoto.com/id/1483272796/photo/seminar-coding-talking.jpg?s=612x612&w=0&k=20&c=1T4WVOI_RzPaQBAyC1z02hR0cycAp2RgbAS2_EoifnE=",
+      "organizer": "College Entrepreneurship Club",
+      "fullDate": "Wednesday, October 2, 2:00 PM"
+    },
+    {
+      "id": "6",
+      "price": "150LE",
+      "category": "Upcoming Events",
+      "type": "music",
+      "start_date": "10/04/2024",
+      "end_date": "10/05/2024",
+      "title": "Live Music Concert",
+      "venue": "City Park Amphitheater",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "18:00",
+      "end_time": "22:00",
+      "description": "Enjoy a night of live music featuring local artists!",
+      "subtitle": "Unforgettable melodies under the stars",
+      "img": "https://source.unsplash.com/featured/?music",
+      "fullDate": "Friday, October 4, 6:00 PM"
+    },
+    {
+      "id": "7",
+      "price": "Free",
+      "category": "Upcoming Events",
+      "type": "food",
+      "start_date": "10/06/2024",
+      "end_date": "10/07/2024",
+      "title": "Food Truck Festival",
+      "venue": "Downtown Square",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "11:00",
+      "end_time": "19:00",
+      "description": "Indulge in a variety of delicious cuisines from food trucks across the region!",
+      "subtitle": "A culinary adventure in the heart of the city",
+      "img": "https://source.unsplash.com/featured/?food",
+      "fullDate": "Sunday, October 6, 11:00 AM"
+    },
+    {
+      "id": "8",
+      "price": "250LE",
+      "category": "Upcoming Events",
+      "type": "art",
+      "start_date": "10/08/2024",
+      "end_date": "10/09/2024",
+      "title": "Art Exhibition",
+      "venue": "Gallery XYZ",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "description": "Experience a showcase of diverse artworks by talented local artists!",
+      "subtitle": "Immerse yourself in the world of creativity",
+      "img": "https://source.unsplash.com/featured/?art",
+      "fullDate": "Tuesday, October 8, 10:00 AM"
+    },
+    {
+      "id": "9",
+      "price": "Free",
+      "category": "Upcoming Events",
+      "type": "community",
+      "start_date": "10/10/2024",
+      "end_date": "10/11/2024",
+      "title": "Community Cleanup Drive",
+      "venue": "Local Park",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "description": "Join hands to make our community cleaner and greener!",
+      "subtitle": "A collective effort for a better environment",
+      "img": "https://source.unsplash.com/featured/?community",
+      "fullDate": "Thursday, October 10, 9:00 AM"
+    },
+    {
+      "id": "10",
+      "price": "50LE",
+      "category": "Upcoming Events",
+      "type": "sports",
+      "start_date": "10/12/2024",
+      "end_date": "10/13/2024",
+      "title": "Fitness Bootcamp",
+      "venue": "Fitness Center",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "07:00",
+      "end_time": "09:00",
+      "description": "Get ready for an intense workout session to boost your fitness levels!",
+      "subtitle": "Transform your body and mind",
+      "img": "https://source.unsplash.com/featured/?fitness",
+      "fullDate": "Saturday, October 12, 7:00 AM"
+    },
+    {
+      "id": "11",
+      "price": "300LE",
+      "category": "Upcoming Events",
+      "type": "music",
+      "start_date": "10/14/2024",
+      "end_date": "10/15/2024",
+      "title": "Jazz Night",
+      "venue": "City Jazz Club",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "20:00",
+      "end_time": "23:00",
+      "description": "Relax and unwind with smooth jazz melodies performed by renowned artists!",
+      "subtitle": "Groove to the rhythm of jazz",
+      "img": "https://source.unsplash.com/featured/?jazz",
+      "fullDate": "Monday, October 14, 8:00 PM"
+    },
+    {
+      "id": "12",
+      "price": "Free",
+      "category": "Upcoming Events",
+      "type": "community",
+      "start_date": "10/16/2024",
+      "end_date": "10/17/2024",
+      "title": "Community Picnic",
+      "venue": "Riverside Park",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "12:00",
+      "end_time": "15:00",
+      "description": "Gather with neighbors and friends for a fun-filled picnic by the riverside!",
+      "subtitle": "Enjoying nature and community spirit",
+      "img": "https://source.unsplash.com/featured/?picnic",
+      "fullDate": "Wednesday, October 16, 12:00 PM"
+    },
+    {
+      "id": "13",
+      "price": "200LE",
+      "category": "Upcoming Events",
+      "type": "arts",
+      "start_date": "10/18/2024",
+      "end_date": "10/19/2024",
+      "title": "Street Art Festival",
+      "venue": "Downtown Streets",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "15:00",
+      "end_time": "21:00",
+      "description": "Witness live art installations and vibrant street performances by local artists!",
+      "subtitle": "Celebrating creativity on the city streets",
+      "img": "https://source.unsplash.com/featured/?street-art",
+      "fullDate": "Friday, October 18, 3:00 PM"
+    },
+    {
+      "id": "14",
+      "price": "Free",
+      "category": "Upcoming Events",
+      "type": "sports",
+      "start_date": "10/20/2024",
+      "end_date": "10/21/2024",
+      "title": "Charity Fun Run",
+      "venue": "City Park",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "08:00",
+      "end_time": "11:00",
+      "description": "Participate in a charity run to support a noble cause and promote fitness!",
+      "subtitle": "Running for a brighter future",
+      "img": "https://source.unsplash.com/featured/?running",
+      "fullDate": "Sunday, October 20, 8:00 AM"
+    },
+    {
+      "id": "15",
+      "price": "100LE",
+      "category": "Upcoming Events",
+      "type": "arts",
+      "start_date": "10/22/2024",
+      "end_date": "10/23/2024",
+      "title": "Photography Exhibition",
+      "venue": "Art Gallery",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "11:00",
+      "end_time": "17:00",
+      "description": "Admire captivating photographs captured by talented photographers from around the world!",
+      "subtitle": "A visual journey through the lens",
+      "img": "https://source.unsplash.com/featured/?photography",
+      "fullDate": "Tuesday, October 22, 11:00 AM"
+    }
+  ],
+  "colleges": [
+    {
+      "category": "College",
+      "type": "college",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "STEM Workshop",
+      "venue": "Science Building",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "description": "Engage in hands-on STEM activities and experiments at the workshop!",
+      "subtitle": "Exploring science, technology, engineering, and mathematics",
+      "img": "https://media.istockphoto.com/id/1455755410/photo/portrait-of-early-20s-female-stem-student.webp?b=1&s=170667a&w=0&k=20&c=AER5_AqisWHTd8iNrDLF-qwMn4TwPl0eSgcZpG01eMo=",
+      "organizer": "Science Department, University XYZ",
+      "id": "8f80",
+      "rate": 7.2,
+      "universityName": "Harvard University"
+    },
+    {
+      "category": "College",
+      "type": "college",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Graduation Ceremony",
+      "venue": "University Auditorium",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "description": "Celebrate the achievements of graduating students at the grand ceremony!",
+      "subtitle": "Marking the culmination of years of hard work",
+      "img": "https://media.istockphoto.com/id/1598339857/photo/happy-asian-woman-in-his-graduation-day.webp?b=1&s=170667a&w=0&k=20&c=RiVuJnQNSaAYBiMICAg-elThdn63Qn5siGvr1XQKt3o=",
+      "organizer": "Office of the Dean, University XYZ",
+      "id": "855e",
+      "rate": 8.5,
+      "universityName": "MIT"
+    },
+    {
+      "category": "College",
+      "type": "college",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Library Study Session",
+      "venue": "University Library",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "08:00",
+      "end_time": "22:00",
+      "description": "Join fellow students for a productive study session at the university library!",
+      "subtitle": "Dedicated time for academic focus",
+      "img": "https://media.istockphoto.com/id/1477190540/photo/stack-of-books-on-table-at-library.webp?b=1&s=170667a&w=0&k=20&c=WPZmdy6JZGbjG4y4Uo2JWSohTDtdi8LKz0u0zar2Xbc=",
+      "organizer": "University Library Services",
+      "id": "51e5",
+      "rate": 6.8,
+      "universityName": "Stanford University"
+    },
+    {
+      "category": "College",
+      "type": "college",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Campus Tour",
+      "venue": "University Campus",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "description": "Explore the university campus and its facilities on an informative guided tour!",
+      "subtitle": "Discovering the campus community",
+      "img": "https://media.istockphoto.com/id/1419580307/photo/students-walking-on-the-university-campus.jpg?s=612x612&w=0&k=20&c=DPTfhcehBeiINfFiEIaldBhjqn4Isf8p1d_twUJRVkk=",
+      "organizer": "University Admissions Office",
+      "id": "cde3",
+      "rate": 7.0,
+      "universityName": "Yale University"
+    },
+    {
+      "category": "College",
+      "type": "college",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Night School Classes",
+      "venue": "College Campus",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "description": "Attend evening classes and expand your knowledge at the college!",
+      "subtitle": "Flexible learning opportunities after hours",
+      "img": "https://media.istockphoto.com/id/1456749194/photo/college-students-arriving-for-night-school.jpg?s=612x612&w=0&k=20&c=qz7RMdg4cgioWYuKIQ0r4iZ7itIbTrhORTcr-y0K2Rk=",
+      "organizer": "College Academic Affairs Office",
+      "id": "8d97",
+      "rate": 8.2,
+      "universityName": "Princeton University"
+    },
+    {
+      "category": "College",
+      "type": "college",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Laptop Learning Session",
+      "venue": "University Library",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "description": "Engage in collaborative learning using laptops at the university library!",
+      "subtitle": "Harnessing technology for education",
+      "img": "https://media.istockphoto.com/id/1458679553/photo/group-of-high-school-students-using-laptop-in-library.jpg?s=2048x2048&w=is&k=20&c=TiwA7D-CNYYKurteqPZGujIWFerV8uhp0RI07eSnHqU=",
+      "organizer": "University IT Services",
+      "id": "f9d0",
+      "rate": 7.8,
+      "universityName": "Columbia University"
+    }
+]
+
+,
+  "education": [
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Interactive Classroom Session",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "08:00",
+      "end_time": "10:00",
+      "description": "Engage in an interactive learning session with hands-on activities!",
+      "subtitle": "Fostering student participation and collaboration",
+      "img": "https://media.istockphoto.com/id/1468140092/photo/happy-elementary-students-raising-their-hands-on-a-class-at-school.jpg?s=612x612&w=0&k=20&c=BrkqxwR_nW4WzbDCAmpQEyF-QYvML9EktH4hhCj-76U=",
+      "organizer": "School Education Department",
+      "id": "b79a"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Japanese Style Classroom Tour",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 35.6895,
+        "longitude": 139.6917
+      },
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "description": "Explore the interior views of a traditional Japanese style classroom!",
+      "subtitle": "Discovering cultural learning environments",
+      "img": "https://media.istockphoto.com/id/1366797961/photo/interior-views-of-an-empty-japanese-style-classroom.jpg?s=612x612&w=0&k=20&c=tMnNP80mNWzQhDrEfkk-AmS6RRfDN2uZEfy6EqYj_QQ=",
+      "organizer": "School Cultural Exchange Program",
+      "id": "6571"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Classroom Discussion",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "description": "Participate in an engaging classroom discussion led by the teacher!",
+      "subtitle": "Encouraging critical thinking and communication skills",
+      "img": "https://media.istockphoto.com/id/1409722748/photo/students-raising-hands-while-teacher-asking-them-questions-in-classroom.jpg?s=612x612&w=0&k=20&c=NbVChOV9wIbQOhUD6BqpouZHHBbyQ2rkSjaVfIhpMv8=",
+      "organizer": "School Academic Affairs Office",
+      "id": "cae7"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Storytelling Session",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "description": "Enjoy a storytelling session by the teacher to enhance imagination and literacy!",
+      "subtitle": "Fostering a love for reading and storytelling",
+      "img": "https://media.istockphoto.com/id/1470160123/photo/female-teacher-reads-to-multi-cultural-elementary-school-pupils-sitting-on-floor-in-class-at.jpg?s=612x612&w=0&k=20&c=NZKN3_mYkdNqdNJYYcN4auHJsyuyvep1QD31I5tlGIA=",
+      "organizer": "School Language Arts Department",
+      "id": "1ba7"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Peer Learning Activity",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "description": "Engage in peer learning activities to enhance understanding and collaboration!",
+      "subtitle": "Learning from classmates and sharing knowledge",
+      "img": "https://media.istockphoto.com/id/1469940271/photo/students-learning-from-teacher.jpg?s=612x612&w=0&k=20&c=p3w4LVV5CfEp-HORafhNbwC36Z83-7SgzTBMsDWo_jE=",
+      "organizer": "School Student Council",
+      "id": "aee5"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Technology Workshop",
+      "venue": "School Computer Lab",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "description": "Attend a technology workshop and learn practical skills in using laptops!",
+      "subtitle": "Enhancing digital literacy and computer skills",
+      "img": "https://media.istockphoto.com/id/1443305526/photo/young-smiling-man-in-headphones-typing-on-laptop-keyboard.jpg?s=612x612&w=0&k=20&c=-JzAS5fjTvxyNRkYoaIlpoLfmt5AEIOcwpt6lk0D4TA=",
+      "organizer": "School Technology Department",
+      "id": "1a31"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Question and Answer Session",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "description": "Participate in a Q&A session to clarify doubts and deepen understanding!",
+      "subtitle": "Encouraging activeUser continous ChatGPT jsonCopy code",
+      "img": "https://media.istockphoto.com/id/1443497642/photo/who-is-going-to-answer-my-question.jpg?s=612x612&w=0&k=20&c=3_9RpJNbHQRzZCeUup0UeQafBEP4jXWyloRATHcLYfw=",
+      "organizer": "School Academic Support Center",
+      "id": "f385"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "E-Learning Program Launch",
+      "venue": "Online Platform",
+      "coordinates": null,
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "description": "Join the launch event of the new e-learning graduate certificate program!",
+      "subtitle": "Exploring online education opportunities",
+      "img": "https://media.istockphoto.com/id/1486721631/photo/e-learning-graduate-certificate-program-concept-businessman-hand-holding-light-bulb-with.jpg?s=612x612&w=0&k=20&c=SYMp2mNJ--ef0vPLUXMw0rzc5kNzazmoEuWFLzuIVBw=",
+      "organizer": "School Online Learning Department",
+      "id": "e66f"
+    },
+    {
+      "category": "Education",
+      "type": "education",
+      "start_date": "10/02/2024",
+      "end_date": "10/03/2024",
+      "title": "Teacher Assistance Session",
+      "venue": "School Classroom",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "description": "Attend a teacher assistance session to receive extra support and guidance!",
+      "subtitle": "Providing additional help for students' academic success",
+      "img": "https://media.istockphoto.com/id/1457744422/photo/teacher-in-classroom-points-to-student-raising-hand.jpg?s=612x612&w=0&k=20&c=Rfo0rQV27-Lf1SooFoFts3vMsUuToRzAN_Ld6i1UPLw=",
+      "organizer": "School Student Academic Support Center",
+      "id": "9d95"
+    }
+  ]
+}

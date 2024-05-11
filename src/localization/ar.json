@@ -1,0 +1,96 @@
+{
+  "signIn": {
+    "yourEmail": "بريدك الإلكتروني",
+    "enterEmail": "أدخل بريدك الإلكتروني",
+    "enterPassword": "أدخل كلمة المرور الخاصة بك",
+    "enterName": "أدخل اسمك",
+    "password": "كلمة المرور",
+    "yourName": "اسمك",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "signUp": "التسجيل",
+    "toEventHive": "",
+    "helloFriend": "مرحبًا يا صديقي",
+    "welcomeBack": "مرحبًا مرة أخرى",
+    "keepConnected": ".للبقاء متصلًا بنا، قم بتقديم معلوماتك"
+  },
+  "buttons": {
+    "signUpWithGoogle": "التسجيل باستخدام جوجل",
+    "signUp": "تسجيل الدخول",
+    "signIn": "التسجيل"
+  },
+  "messages": {
+    "or": "أو"
+  },
+    "colledgeEvents": {
+      "checkoutYour": "تحقق من",
+      "collegeEvents": "فعاليات الكلية",
+      "now": "الآن",
+      "colleges": "الكليات",
+      "nearYou": "بالقرب منك"
+    },"homepage": {
+      "madeFor": "مصممة لأولئك الذين يسعون"
+  },
+    "colledgeEventCard": {
+      "free": "مجانًا",
+      "title": "أفضل كتاب مبيعًا - كتابة ، تسويق ونشر كتابك - Lucknow",
+      "date": "السبت ، 18 مارس ، 9:30 مساءً",
+      "location": "فعالية عبر الإنترنت - حضور من أي مكان"
+    },"createEvent": {
+      "makeYourOwnEvent": "إصنع حدثك الخاص",
+      "loremIpsum": ".لوريم إيبسوم هو نص وهمي يُستخدم في صناعات المطبوعات وتصميم الجرافيك",
+      "createEvents": "أنشأ حدث",
+      "joinThese": "انضم إلى هذه",
+      "brands": "العلامات التجارية",
+      "industryBrands": ".لقد كان لنا متعة العمل مع العلامات التجارية التي تحدد الصناعة. هذه فقط بعضها"
+  },"navbar": {
+    "home": "الصفحة الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "login": "تسجيل الدخول",
+    "signup": "التسجيل",
+    "logout": "تسجيل الخروج"
+  },"form": {
+    "lookingFor": ":البحث عن",
+    "location": ":الموقع",
+    "when": ":متى",
+    "chooseEventType": "اختر نوع الحدث",
+    "chooseLocation": "اختر الموقع",
+    "chooseDateTime": "اختر التاريخ والوقت",
+    "community": "مجتمع",
+    "music": "موسيقى",
+    "education": "تعليم",
+    "sports": "رياضة",
+    "food": "طعام",
+    "downtownSquare": "ساحة وسط المدينة",
+    "galleryXYZ": "معرض XYZ",
+    "cityJazzClub": "نادي موسيقى الجاز في المدينة",
+    "riversidePark": "حديقة النهر"
+  },"eventType": {
+    "community": "مجتمع",
+    "music": "موسيقى",
+    "education": "تعليم",
+    "sports": "رياضة"
+  },
+  "locations": {
+    "downtownSquare": "الساحة وسط المدينة",
+    "galleryXYZ": "معرض XYZ",
+    "cityJazzClub": "نادي موسيقى الجاز في المدينة",
+    "riversidePark": "حديقة النهر"
+  },
+  "events": {
+    "youMayLike": "الفعاليات التي قد تعجبك",
+    "collegeEvents": "فعاليات الكلية",
+    "upcoming": "الفعاليات",
+    "events": "القادمة",
+    "eventType": "نوع الفعالية",
+    "location": "الموقع",
+    "dateTime": "التاريخ والوقت"
+  },"loadMore": "...المزيد",
+  "colleges":{
+    "Trending": "الجامعات",
+    "Colleges": "الرائجة"
+  }
+  
+  
+}

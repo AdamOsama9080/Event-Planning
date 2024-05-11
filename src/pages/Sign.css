@@ -1,0 +1,5 @@
+@media (max-width: 1023px) {
+    .d-md-block {
+      display: none !important;
+    }
+  }
