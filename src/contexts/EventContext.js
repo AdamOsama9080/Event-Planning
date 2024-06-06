@@ -23,7 +23,7 @@ const EventsContextProvider = ({ children }) => {
 
   const getEvents = async () => {
     await axios
-      .get("http://localhost:2000/upcomping_events")
+      .get("https://json-server-event-planning-tool.onrender.com/upcomping_events")
       .then((res) => {
         setEvents(res.data);
       })
@@ -83,7 +83,7 @@ const EventsContextProvider = ({ children }) => {
 
   const updateEventWithFormatedDate = (id, obj) => {
     let temp = formatDate(obj.start_date, obj.start_time);
-    axios.put(`http://localhost:2000/upcomping_events/${id}`, {
+    axios.put(`https://json-server-event-planning-tool.onrender.com/upcomping_events/${id}`, {
       ...obj,
       fullDate: temp,
     });

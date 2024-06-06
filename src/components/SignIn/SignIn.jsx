@@ -26,7 +26,7 @@ const SignIn = () => {
   const handleOnSubmit = (eve) => {
     eve.preventDefault();
 
-    axios.get("http://localhost:2000/users").then((res) => {
+    axios.get("https://json-server-event-planning-tool.onrender.com/users").then((res) => {
       let usr = res.data.find((u) => u.email === user.email);
       if (usr) {
         if (usr.password === user.password) {

@@ -42,22 +42,22 @@ const Message = () => {
     },
     {
       "id": "7",
-      "message": "To view all sports events click here: [http://localhost:2000/sports].",
+      "message": "To view all sports events click here: [https://json-server-event-planning-tool.onrender.com/sports].",
       "end": true
     },
     {
       "id": "8",
-      "message": "To view all upcoming events click here: [http://localhost:2000/upcoming_events].",
+      "message": "To view all upcoming events click here: [https://json-server-event-planning-tool.onrender.com/upcoming_events].",
       "end": true
     },
     {
       "id": "9",
-      "message": "Here is the link to know about colleges: Colleges URL: [http://localhost:2000/colleges].",
+      "message": "Here is the link to know about colleges: Colleges URL: [https://json-server-event-planning-tool.onrender.com/colleges].",
       "end": true
     },
     {
       "id": "10",
-      "message": "Here is the link to know about education: Education URL: [http://localhost:2000/education].",
+      "message": "Here is the link to know about education: Education URL: [https://json-server-event-planning-tool.onrender.com/education].",
       "end": true
     }
   ], []);

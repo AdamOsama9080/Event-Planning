@@ -50,7 +50,7 @@ export default function CreateEventForm() {
       confirmButtonText: "Yes, create it!"
     }).then((result) => {
       if (result.isConfirmed) {
-        axios.post(`http://localhost:2000/${eventType}`, {
+        axios.post(`https://json-server-event-planning-tool.onrender.com/${eventType}`, {
           ...eventData,
           id: uuid()
         }).then(() => {

@@ -10,16 +10,16 @@ export default function StackedChart() {
     // Fetch data from the provided endpoints
     const fetchData = async () => {
       try {
-        const sportsResponse = await fetch('http://localhost:2000/Sports');
+        const sportsResponse = await fetch('https://json-server-event-planning-tool.onrender.com/Sports');
         const sportsData = await sportsResponse.json();
 
-        const upcomingEventsResponse = await fetch('http://localhost:2000/upcomping_events');
+        const upcomingEventsResponse = await fetch('https://json-server-event-planning-tool.onrender.com/upcomping_events');
         const upcomingEventsData = await upcomingEventsResponse.json();
 
-        const collegesResponse = await fetch('http://localhost:2000/colleges');
+        const collegesResponse = await fetch('https://json-server-event-planning-tool.onrender.com/colleges');
         const collegesData = await collegesResponse.json();
 
-        const educationResponse = await fetch('http://localhost:2000/education');
+        const educationResponse = await fetch('https://json-server-event-planning-tool.onrender.com/education');
         const educationData = await educationResponse.json();
 
         // Combine all data into a single array
