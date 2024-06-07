@@ -47,7 +47,7 @@ export default function CreateEventForm() {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .post(`http://localhost:2000/${eventType}`, {
+          .post(`https://json-server-event-planning-tool.onrender.com/${eventType}`, {
             ...eventData,
             id: uuid(),
           })
