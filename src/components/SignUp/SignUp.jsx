@@ -24,7 +24,7 @@ const SignUp = () => {
     const handleOnSubmit = (eve)=>{
         eve.preventDefault();
         console.log(user);
-        axios.post('https://json-server-event-planning-tool.onrender.com/users',user).then(
+        axios.post('http://localhost:2000/users',user).then(
             (res=>{
                 if(res.statusText === "Created")
                 {

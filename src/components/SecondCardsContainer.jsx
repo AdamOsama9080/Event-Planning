@@ -10,7 +10,7 @@ function SecondCardsContainer() {
   const [Colleges, setColleges] = useState([]);
   useEffect(() => {
     axios
-      .get("https://json-server-event-planning-tool.onrender.com/colleges")
+      .get("http://localhost:2000/colleges")
       .then((res) => {
         setColleges(res.data);
       })

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CanvasJSReact from '@canvasjs/react-charts';
-import axios from 'axios'; 
+import axios from 'axios'; // Import Axios for making HTTP requests
 
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
@@ -11,10 +11,10 @@ export default function PieChart() {
     const fetchData = async () => {
       try {
         const [sportsResponse, upcomingEventsResponse, collegesResponse, educationResponse] = await Promise.all([
-          axios.get('https://json-server-event-planning-tool.onrender.com/Sports'),
-          axios.get('https://json-server-event-planning-tool.onrender.com/upcomping_events'),
-          axios.get('https://json-server-event-planning-tool.onrender.com/colleges'),
-          axios.get('https://json-server-event-planning-tool.onrender.com/education')
+          axios.get('http://localhost:2000/Sports'),
+          axios.get('http://localhost:2000/upcomping_events'),
+          axios.get('http://localhost:2000/colleges'),
+          axios.get('http://localhost:2000/education')
         ]);
 
         const sportsCount = sportsResponse.data.length;

@@ -5,8 +5,6 @@ import Dashboard from "../Dashboard/Dashboard";
 import Message from "../Message/Message";
 import Profile from "../Profile/Profile";
 import Card from "../Card/card";
-// import Card from "../Card/Card";
-
 export default function Organizer() {
   return (
     <div className="container-fluid">

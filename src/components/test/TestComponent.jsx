@@ -7,7 +7,6 @@ import Organizer from '../Oraginzer/Organizer';
 // import CreateEventForm from '../CreateEventForm/CreateEventForm';
 import CreateEventForm from '../CreateEventForm';
 import GeoLocation from '../GeoLocation/GeoLocation';
-import HomeEvent from '../../pages/HomeEvent';
 
 export default function TestComponent() {
   return (
@@ -19,10 +18,9 @@ export default function TestComponent() {
           <Route path="profile" element={<Profile />} />
         </Routes> */}
         {/* <Dashboard/> */}
-        <Organizer></Organizer>
+        {/* <Organizer></Organizer> */}
         {/* <GeoLocation></GeoLocation> */}
-        {/* <GeoLocation latitude={29.952654} longitude={30.921919} /> */}
-        {/* <HomeEvent></HomeEvent> */}
+        <GeoLocation latitude={29.952654} longitude={30.921919} />
 
         {/* <CreateEventForm></CreateEventForm> */}
       </BrowserRouter>

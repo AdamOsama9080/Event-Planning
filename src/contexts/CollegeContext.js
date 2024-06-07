@@ -3,17 +3,41 @@ import { parse,format } from 'date-fns';
 import { createContext, useCallback, useMemo, useState } from "react";
 export const eventsContext = createContext();
 
+
+
+
+
 const ContextProvider = ({ children }) => {
     const [events, setEvents] = useState([]);
     const [dummyevents, setDummyevents] = useState(null);
     const getEvents = async () => {
         await axios.get("http://localhost:3000/upcomping_events")
-            .then((res) => {
-                setEvents(res.data);
-            })
-            .then((err) => { console.log(err) });
+        .then((res) => {
+            setEvents(res.data);
+        })
+        .then((err) => { console.log(err) });
     }
-
+    const formatDate = (dateString, timeString) => {
+        if (!dateString) {
+            return "";
+        }
+    
+        // Split the date string assuming it's in MM/DD/YYYY format
+        const [month, day, year] = dateString.split('/');
+        const formattedDateString = `${year}-${month}-${day}T${timeString}:00`;
+        
+        const date = new Date(formattedDateString);
+        if (isNaN(date.getTime())) {
+            console.error("Invalid date string:", formattedDateString);
+            return "";
+        }
+    
+        const options = { weekday: 'long', month: 'long', day: 'numeric' };
+        const formattedDate = date.toLocaleDateString('en-US', options);
+        const formattedTime = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+        return formattedDate + ', ' + formattedTime;
+    };
+    
     const getFilteredEvents = useCallback((obj) => {
         setDummyevents([...events]);
         console.log(obj.type,obj.venue)
@@ -34,28 +58,28 @@ const ContextProvider = ({ children }) => {
         let temp = formatDate(obj.start_date, obj.start_time);
         axios.put(`http://localhost:3000/upcomping_events/${id}`, { ...obj, fullDate: temp });
     }
-    const formatDate = (date, time) => {
-        if (date && time) {
-            // Parse the start date
-            const [month, day, year] = date.split('/');
-            const startDate = new Date(year, month - 1, day);
+    // const formatDate = (date, time) => {
+    //     if (date && time) {
+    //         // Parse the start date
+    //         const [month, day, year] = date.split('/');
+    //         const startDate = new Date(year, month - 1, day);
 
-            // Parse the start time
-            const [hoursStr, minutesStr] = time.split(':');
-            const hours = parseInt(hoursStr, 10);
-            const minutes = parseInt(minutesStr, 10);
+    //         // Parse the start time
+    //         const [hoursStr, minutesStr] = time.split(':');
+    //         const hours = parseInt(hoursStr, 10);
+    //         const minutes = parseInt(minutesStr, 10);
 
-            startDate.setHours(hours);
-            startDate.setMinutes(minutes);
+    //         startDate.setHours(hours);
+    //         startDate.setMinutes(minutes);
 
-            const formattedDateTime = parse(startDate, "yyyy-MM-dd HH:mm:ss", new Date());
+    //         const formattedDateTime = parse(startDate, "yyyy-MM-dd HH:mm:ss", new Date());
 
-    // Format the parsed date into the desired format
-    const formattedDate = format(formattedDateTime,  "EEEE, MMMM d, yyyy, h:mm a");
+    // // Format the parsed date into the desired format
+    // const formattedDate = format(formattedDateTime,  "EEEE, MMMM d, yyyy, h:mm a");
     
-    return formattedDate;
-        }
-    };
+    // return formattedDate;
+    //     }
+    // };
 
     const contextValues = useMemo(() => ({ updateEventWithFormatedDate, events, setEvents, getEvents, getFilteredEvents, dummyevents, setDummyevents })
         , [updateEventWithFormatedDate, events, setEvents, getEvents, getFilteredEvents, dummyevents, setDummyevents]);

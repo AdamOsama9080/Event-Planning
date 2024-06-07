@@ -9,16 +9,16 @@ export default function MonthlyEventsChart() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const sportsResponse = await fetch('https://json-server-event-planning-tool.onrender.com/Sports');
+        const sportsResponse = await fetch('http://localhost:2000/Sports');
         const sportsData = await sportsResponse.json();
 
-        const upcomingEventsResponse = await fetch('https://json-server-event-planning-tool.onrender.com/upcomping_events');
+        const upcomingEventsResponse = await fetch('http://localhost:2000/upcomping_events');
         const upcomingEventsData = await upcomingEventsResponse.json();
 
-        const collegesResponse = await fetch('https://json-server-event-planning-tool.onrender.com/colleges');
+        const collegesResponse = await fetch('http://localhost:2000/colleges');
         const collegesData = await collegesResponse.json();
 
-        const educationResponse = await fetch('https://json-server-event-planning-tool.onrender.com/education');
+        const educationResponse = await fetch('http://localhost:2000/education');
         const educationData = await educationResponse.json();
 
         const allEventsData = [...sportsData, ...upcomingEventsData, ...collegesData, ...educationData];
@@ -54,8 +54,6 @@ export default function MonthlyEventsChart() {
     x: new Date(month.split('/')[1], month.split('/')[0] - 1), // Split and rearrange month and year parts
     y: monthlyEvents[month]
   }));
-
-  
 
   const options = {
     animationEnabled: true,

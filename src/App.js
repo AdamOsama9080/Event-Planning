@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/nav/NavBar";
 import Footer from "./components/Footer";
@@ -21,9 +21,8 @@ import HomeEvent from "./pages/HomeEvent";
 import HomeCollege from "./pages/HomeCollege";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Message from "./components/Message/Message";
-
-import Profile from "./components/Profile/Profile";
 import Card from "./components/Card/card";
+import Profile from "./components/Profile/Profile";
 function App() {
   return (
     <div className="App">
@@ -34,8 +33,8 @@ function App() {
               <NavBar />
               <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="signin" element={<SignIn />} />
-                <Route path="signup" element={<SignUp />} />
+                <Route path="signin" element={<SignIn></SignIn>} />
+                <Route path="signup" element={<SignUp></SignUp>} />
                 <Route path="sign-in" element={<Sign signType="in" />} />
                 <Route path="sign-up" element={<Sign signType="up" />} />
                 <Route path="create-event" element={<CreateEvent />} />
@@ -47,7 +46,7 @@ function App() {
                 />
                 <Route path="organizer" element={<Organizer />}>
                   <Route path="dashboard" element={<Dashboard />} />
-                  <Route path="event" element={<Card></Card>} />
+                  <Route path="event" element={<Card />} />
                   <Route path="message" element={<Message />} />
                   <Route path="profile" element={<Profile />} />
                 </Route>

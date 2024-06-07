@@ -9,14 +9,7 @@ const HomeEvent = () => {
     <>
       <div
         className="row w-100 p-5 gx-5"
-        style={{
-          backgroundImage:
-            'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/event.jpg")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          minHeight: "500px",
-          borderRadius: "20px",
-        }}
+        style={{backgroundImage:  'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/event.jpg")',backgroundSize: "cover",backgroundPosition: "center",minHeight: "500px",borderRadius: "20px",}}
       >
         {/* (text) */}
         <div className="col-sm-12 col-md-7" style={{ color: "white" }}>

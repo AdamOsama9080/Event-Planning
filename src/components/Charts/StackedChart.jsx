@@ -10,16 +10,16 @@ export default function StackedChart() {
     // Fetch data from the provided endpoints
     const fetchData = async () => {
       try {
-        const sportsResponse = await fetch('https://json-server-event-planning-tool.onrender.com/Sports');
+        const sportsResponse = await fetch('http://localhost:2000/Sports');
         const sportsData = await sportsResponse.json();
 
-        const upcomingEventsResponse = await fetch('https://json-server-event-planning-tool.onrender.com/upcomping_events');
+        const upcomingEventsResponse = await fetch('http://localhost:2000/upcomping_events');
         const upcomingEventsData = await upcomingEventsResponse.json();
 
-        const collegesResponse = await fetch('https://json-server-event-planning-tool.onrender.com/colleges');
+        const collegesResponse = await fetch('http://localhost:2000/colleges');
         const collegesData = await collegesResponse.json();
 
-        const educationResponse = await fetch('https://json-server-event-planning-tool.onrender.com/education');
+        const educationResponse = await fetch('http://localhost:2000/education');
         const educationData = await educationResponse.json();
 
         // Combine all data into a single array
@@ -35,7 +35,6 @@ export default function StackedChart() {
 
   // Calculate statistics
   const calculateStatistics = () => {
-    console.log(eventsData);
     // Calculate number of events per category
     const eventsPerCategory = eventsData.reduce((acc, event) => {
       acc[event.category] = (acc[event.category] || 0) + 1;
@@ -49,7 +48,6 @@ export default function StackedChart() {
       Colleges: Math.floor(Math.random() * 4) + 1,
       Education: Math.floor(Math.random() * 4) + 1,
     };
-    console.log(averageDurationPerCategory);
 
     // Calculate count of each type within each category
     const typeCountsPerCategory = eventsData.reduce((acc, event) => {

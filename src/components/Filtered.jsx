@@ -43,12 +43,14 @@ function Filtered() {
   };
 
   const handleDate = async (e) => {
-    const formattedDate = formatDate(e.target.value);
+    const [date, time] = e.target.value.split('T');
+    const formattedDate = formatDate(date, time);
     await setFilteredOptions({
       ...filteredOptions,
       [e.target.name]: formattedDate,
     });
   };
+
   const location = useLocation();
   if (location.pathname === "/home-event") {
     return (

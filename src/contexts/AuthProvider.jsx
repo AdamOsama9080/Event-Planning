@@ -5,9 +5,7 @@ const endPoints = {
   user: ["/allevents", "/", "/colledge-events"],
   organizer: ["/colledge-events", "/", "/create-event"],
 };
-
 export const authContextProvider = createContext();
-
 const AuthProvider = ({ children }) => {
   const location = useLocation();
   console.log(location.pathname);
@@ -16,17 +14,16 @@ const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     let user = JSON.parse(localStorage.getItem("user"));
-    if (user && user.role && endPoints[user.role]) {
+    if (user) {
+      console.log(endPoints[user.role].includes(location.pathname));
       if (endPoints[user.role].includes(location.pathname)) {
         setIsLogind(true);
       } else {
         localStorage.removeItem("user");
         navigate("/signin");
       }
-    } else {
-      navigate("/signin");
     }
-  }, [location, navigate]);
+  }, []);
 
   return (
     <authContextProvider.Provider value={{ isLogined, setIsLogind }}>

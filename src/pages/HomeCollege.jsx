@@ -5,9 +5,6 @@ import FirstCardsContainer from "../components/FirstCardsContainer";
 const HomeCollege = () => {
   return (
     <div>
-      {/* <div style={{width:100}}>
-            <img src='img/college.jpg' alt='img'></img>
-            </div> */}
       <div style={{ padding: "20px" }}>
         <img
           src="img/college2.jpg"
